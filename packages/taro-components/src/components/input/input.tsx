@@ -118,6 +118,7 @@ export class Input implements ComponentInterface {
   }
 
   handleInput = (e: TaroEvent<HTMLInputElement>) => {
+    console.log('123')
     e.stopPropagation()
     const {
       type,
